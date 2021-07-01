@@ -10,7 +10,6 @@
     font-family: 'Open Sans', sans-serif;
  }
 
-
  .clearfix::after{
     content: "";
     display: table;
@@ -44,7 +43,6 @@
  /* header */
 
  header{
-    padding: 20px;
     position: fixed;
 	width: 100%;
 	top: 0;
@@ -55,7 +53,7 @@
      float: left;
      height: 70px;
      width: 50%;
-     padding: 20px;
+     padding: 20px 20px 10px;
  }  
 
  .header-left img{
@@ -88,4 +86,17 @@
 .header-menu.left, .header-menu.right{
     vertical-align: middle;
     /* border: 1px solid black; */
+}
+/* Main */
+main{
+    margin-top: 90px;
+}
+
+.section-big{
+    width: 100%;
+}
+
+.section-big.azzurro{
+    background-color: #b4d0e7;
+    height: 740px;
 }
