@@ -16,15 +16,30 @@
     clear: both;
  }
 
- .btn{
-     background-color: cyan;
-     padding: 10px;
- }
-
  a{
      text-decoration: none;
  }
 
+ /* buttons */
+ .bottone-header{
+    background-color:#0061ff;
+    padding: 3px 5px;
+    vertical-align: middle;
+ }
+
+ 
+
+/* Typo */
+.header-menu a{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+.bottone-header a {
+    color: white;
+    font-size: 15px;
+
+}
  /* header */
 
  .header-right, .header-left{
@@ -36,23 +51,32 @@
 
  .header-left img{
      vertical-align: middle;
+     margin-right: 15px;
  }
- .header-left{
-     background-color: chartreuse;
+
+ .header-left,.header-right {
+     background-color:white;
  }
 
  .header-right{
-     background-color: crimson;
      text-align: right;
  }
 
  /* nav */
  .header-menu.right,
  .header-menu.left, 
- .header-button,
  .header-menu ul li,
- .header-menu a{
+ .header-menu a,
+ .bottone-header{
     display: inline-block;
-    vertical-align: middle;
 }
  
+.header-menu li{
+    margin: 0 30px;
+}
+
+ /* Allineamento di due nav */
+.header-menu.left, .header-menu.right{
+    vertical-align: middle;
+    /* border: 1px solid black; */
+}
