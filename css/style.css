@@ -15,3 +15,19 @@
     display: table;
     clear: both;
  }
+
+ /* header */
+
+ .header-right, .header-left{
+     float: left;
+     height: 70px;
+     width: 50%;
+ }  
+
+ .header-left{
+     background-color: chartreuse;
+ }
+
+ .header-right{
+     background-color: crimson;
+ }
