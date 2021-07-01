@@ -23,7 +23,7 @@
  .container-big{
      width: 80%;
      margin: auto;
-     background-color: burlywood;
+     /* background-color: burlywood; */
  }
  /* buttons */
  .bottone-header{
@@ -56,9 +56,9 @@
 
  .header-right, .header-left{
      float: left;
-     height: 70px;
      width: 50%;
-     padding: 20px 20px 10px;
+     padding: 30px 20px 10px;
+     height: 60px;
  }  
 
  .header-left img{
@@ -104,4 +104,12 @@ main{
 .section-big.azzurro{
     background-color: #b4d0e7;
     height: 740px;
+}
+.container-big{
+    width: 1250px;
+    margin: auto;
+}
+.container-big h1{
+    font-size: 60px;
+    padding-top: 50px;
 }
