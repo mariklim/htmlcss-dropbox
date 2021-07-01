@@ -16,6 +16,11 @@
     clear: both;
  }
 
+ .btn{
+     background-color: cyan;
+     padding: 10px;
+ }
+
  /* header */
 
  .header-right, .header-left{
@@ -30,4 +35,13 @@
 
  .header-right{
      background-color: crimson;
+ }
+
+ /* nav */
+ .header-menu.right, .header-menu.left, 
+ .header-button {
+    display: inline-block;
+ }
+ .header-menu ul li, .header-menu a{
+    display:inline-block;
  }
