@@ -108,6 +108,24 @@ main{
     margin: auto;
 }
 .container-big h1{
-    font-size: 60px;
+    font-size: 80px;
     padding-top: 50px;
+}
+
+/* Sezione-1 */
+.section-big.azzurro .colonne{
+    margin-top: 30px;
+}
+.col-sezione-1-left, .col-sezione-1-right{
+    float: left;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.col-sezione-1-left{
+    width: 30%;
+}
+
+.col-sezione-1-right{
+    width: 70%;
 }
