@@ -21,27 +21,38 @@
      padding: 10px;
  }
 
+ a{
+     text-decoration: none;
+ }
+
  /* header */
 
  .header-right, .header-left{
      float: left;
      height: 70px;
      width: 50%;
+     padding: 20px;
  }  
 
+ .header-left img{
+     vertical-align: middle;
+ }
  .header-left{
      background-color: chartreuse;
  }
 
  .header-right{
      background-color: crimson;
+     text-align: right;
  }
 
  /* nav */
- .header-menu.right, .header-menu.left, 
- .header-button {
+ .header-menu.right,
+ .header-menu.left, 
+ .header-button,
+ .header-menu ul li,
+ .header-menu a{
     display: inline-block;
- }
- .header-menu ul li, .header-menu a{
-    display:inline-block;
- }
+    vertical-align: middle;
+}
+ 
