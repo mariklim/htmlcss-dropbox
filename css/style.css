@@ -20,6 +20,11 @@
      text-decoration: none;
  }
 
+ .container-big{
+     width: 80%;
+     margin: auto;
+     background-color: burlywood;
+ }
  /* buttons */
  .bottone-header{
     background-color:#0061ff;
