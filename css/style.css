@@ -32,6 +32,11 @@
     vertical-align: middle;
  }
 
+ .bottone-big{
+     background-color: #0061ff;
+     display: inline-block;
+     padding: 7px 20px;
+ }
  
 
 /* Typo */
@@ -43,7 +48,12 @@
 .bottone-header a {
     color: white;
     font-size: 15px;
+}
 
+.bottone-big a{
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
 }
  /* header */
 
@@ -118,8 +128,8 @@ main{
 }
 .col-sezione-1-left, .col-sezione-1-right{
     float: left;
-    background-color: yellow;
-    border: 1px solid black;
+    /* background-color: yellow;
+    border: 1px solid black; */
 }
 
 .col-sezione-1-left{
@@ -129,3 +139,8 @@ main{
 .col-sezione-1-right{
     width: 70%;
 }
+
+.col-sezione-1-left p{
+margin-bottom: 20px;
+}
+
