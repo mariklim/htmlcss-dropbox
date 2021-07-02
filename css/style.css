@@ -69,6 +69,10 @@
   }
 
 
+  .col-small-title p{
+    font-size: 14px;
+  }
+
  /* header */
 
  header{
@@ -210,10 +214,17 @@ font-weight: 600;
     float: left;
     min-height: 500px;
     width: calc(100%/3 - 40px);
-    background-color: indianred;
-    border: 1px solid black;
+    border: 1px solid #d0d0d3;
+    /* background-color: indianred; */
 }
 
 .col-plan.stand{
     margin: 0 20px;
 }
+
+.col-small-title{
+    text-align: center;
+    border-bottom: 1px solid #d0d0d3;
+    padding: 10px 0;
+}
+
