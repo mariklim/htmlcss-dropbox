@@ -165,7 +165,7 @@ font-weight: 600;
 }
 
 #arrow{
-    font-size: 90px;
+    font-size: 60px;
 }
 
 /* Sezione 2 piani */
@@ -182,6 +182,7 @@ font-weight: 600;
 }
 .fatturazione{
     margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 #cerchio-blu, 
@@ -200,4 +201,19 @@ font-weight: 600;
 
 #cerchio-white{
     border: 1px solid grey;
+}
+
+/* Colonne dei piani */
+
+
+.col-plan{
+    float: left;
+    min-height: 500px;
+    width: calc(100%/3 - 40px);
+    background-color: indianred;
+    border: 1px solid black;
+}
+
+.col-plan.stand{
+    margin: 0 20px;
 }
