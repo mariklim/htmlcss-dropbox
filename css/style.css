@@ -62,6 +62,13 @@
     font-weight: bold;
     font-size: 17px;
 }
+
+.small-text{
+    font-size: 13px;
+    margin-top: 10px;
+  }
+
+
  /* header */
 
  header{
@@ -152,10 +159,6 @@ margin-bottom: 20px;
 font-weight: 600;
 }
 
-#small-text{
-  font-size: 15px;
-  margin-top: 10px;
-}
 
 .col-sezione-1-right img{
     width: 100%; 
@@ -169,4 +172,32 @@ font-weight: 600;
 
 .container-small.plan{
     margin-top: 150px;
+}
+
+.fatturazione p{
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: middle;
+    margin-top: 0;
+}
+.fatturazione{
+    margin-top: 40px;
+}
+
+#cerchio-blu, 
+#cerchio-white{
+    display: inline-block;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background-color: white;
+
+}
+#cerchio-blu{
+    border: 5px solid #0061ff;
+}
+
+#cerchio-white{
+    border: 1px solid grey;
 }
