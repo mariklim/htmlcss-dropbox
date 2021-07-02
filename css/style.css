@@ -25,6 +25,13 @@
      margin: auto;
      /* background-color: burlywood; */
  }
+
+ .container-small{
+    width: 60%;
+    margin: auto;
+}
+
+
  /* buttons */
  .bottone-header{
     background-color:#0061ff;
@@ -124,7 +131,7 @@ main{
 
 /* Sezione-1 hero */
 .colonne-hero{
-    transform: translate(50px, 90px);
+    transform: translate(0px, 90px);
 }
 .col-sezione-1-left, .col-sezione-1-right{
     float: left;
@@ -158,3 +165,8 @@ font-weight: 600;
     font-size: 90px;
 }
 
+/* Sezione 2 piani */
+
+.container-small.plan{
+    margin-top: 150px;
+}
