@@ -27,7 +27,7 @@
  }
 
  .container-small{
-    width: 60%;
+    width: 70%;
     margin: auto;
 }
 
@@ -68,11 +68,33 @@
     margin-top: 10px;
   }
 
-
   .col-small-title p{
     font-size: 14px;
   }
 
+  .titolo-sezione{
+      font-size: 40px;
+  }
+
+  .col-title{
+      font-size: 25px;
+  }
+
+  .price{
+      font-weight: 700;
+      margin: 5px 0;
+  }
+
+  .periodo{
+    color: #73818e;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .op{
+      font-size: 14px;
+      padding: 10px 0;
+  }
  /* header */
 
  header{
@@ -209,7 +231,9 @@ font-weight: 600;
 
 /* Colonne dei piani */
 
-
+.col-content-top{
+    padding: 20px;
+}
 .col-plan{
     float: left;
     min-height: 500px;
@@ -228,3 +252,17 @@ font-weight: 600;
     padding: 10px 0;
 }
 
+.opzioni{
+    margin-top: 30px;
+}
+
+.fas.fa-pencil-alt{
+    display: inline-block;
+    background-color: blue;
+    vertical-align: text-top
+}
+
+.op{
+    display: inline-block;
+    background-color: burlywood;
+}
