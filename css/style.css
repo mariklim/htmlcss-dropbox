@@ -259,3 +259,7 @@ font-weight: 600;
 .opzioni .fa-ul{
     margin-left: 20px;
 }
+
+.col-plan.stand{
+    margin: 0 20px;
+}
