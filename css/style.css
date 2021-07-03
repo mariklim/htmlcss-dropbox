@@ -46,6 +46,9 @@
      margin: 20px 0;
  }
  
+ .check{
+     color: #0061ff;
+ }
 
 /* Typo */
 .header-menu a{
@@ -275,4 +278,8 @@ font-weight: 600;
     display: inline-block;
     padding-bottom: 40px;
     border-bottom: 1px solid #d0d0d3;
+}
+
+.col-content-bottom{
+    margin-top: 40px;
 }
