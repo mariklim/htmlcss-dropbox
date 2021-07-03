@@ -43,6 +43,7 @@
      background-color: #0061ff;
      display: inline-block;
      padding: 7px 20px;
+     margin: 20px 0;
  }
  
 
@@ -67,6 +68,12 @@
     font-size: 13px;
     margin-top: 10px;
   }
+
+ .small-text .acquista-ora{
+    text-decoration-line: underline;
+    color: #67a0ff;
+    font-weight: 600;
+ } 
 
   .col-small-title p{
     font-size: 14px;
@@ -236,7 +243,7 @@ font-weight: 600;
 }
 .col-plan{
     float: left;
-    min-height: 500px;
+    min-height: 700px;
     width: calc(100%/3 - 40px);
     border: 1px solid #d0d0d3;
     /* background-color: indianred; */
@@ -262,4 +269,10 @@ font-weight: 600;
 
 .col-plan.stand{
     margin: 0 20px;
+}
+
+.short-gray-line{
+    display: inline-block;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #d0d0d3;
 }
