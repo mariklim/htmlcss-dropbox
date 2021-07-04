@@ -301,7 +301,7 @@ font-weight: 600;
 /* Enterprise */
 .col-plan.enterprise{
     width: 100%;
-    margin: 40 0px;
+    margin: 40px 0px;
     height: auto;
     padding-bottom: 30px;
 }
@@ -354,3 +354,17 @@ right: 100px;
 .col-2-right p{
     padding: 15px 0;
 }
+
+/* Sezione 4 operazioni  */
+
+.col-left-op, .col-center-op, .col-right-op{
+    float: left;
+    width: calc(100%/3);
+    
+}
+
+.colonne-operazioni img{
+    width: 100%;
+}
+
+
