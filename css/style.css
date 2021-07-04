@@ -356,15 +356,24 @@ right: 100px;
 }
 
 /* Sezione 4 operazioni  */
-
+.colonne-operazioni{
+    margin-top: 30px;
+}
 .col-left-op, .col-center-op, .col-right-op{
     float: left;
-    width: calc(100%/3);
+    width: calc(100%/3 - 40px);
     
+}
+
+.col-center-op{
+    margin: 0 60px;
 }
 
 .colonne-operazioni img{
     width: 100%;
 }
 
+.colonne-operazioni h4{
+    margin: 20px 0;
+}
 
