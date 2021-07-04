@@ -31,7 +31,6 @@
     margin: auto;
 }
 
-
  /* buttons */
  .bottone-header{
     background-color:#0061ff;
@@ -56,7 +55,17 @@
     padding: 5px 25px;
 }
 
+.bottone-big.btn-partner{
+    background-color:white;
+    border: 1px solid black;
+}
+.bottone-big.btn-partner a{
+    color: black;
+    font-weight: 400;
+}
+
 /* Typo */
+p{ font-size: 15px;}
 .header-menu a{
     color: black;
     font-size: 15px;
@@ -92,7 +101,7 @@
       font-size: 40px;
   }
 
-  .plan-title{
+  .plan-title, .subtitle-2{
       font-size: 25px;
   }
 
@@ -113,7 +122,6 @@
   }
   .subtitle p{
     margin-top: 30px;
-    font-size: 15px;
 }
  /* header */
 
@@ -291,16 +299,12 @@ font-weight: 600;
 }
 
 /* Enterprise */
-
-
-
 .col-plan.enterprise{
     width: 100%;
     margin: 40 0px;
     height: auto;
     padding-bottom: 30px;
 }
-
 
 .col-content-top.clearfix .plan-title,
 .btn-enterprise{
@@ -317,4 +321,36 @@ font-weight: 600;
 
 .subtitle{
     padding-left: 20px;
+}
+
+
+/* Sezione 3 trova partner */
+
+.container-trova-partner{
+    margin: 70px 0;
+}
+
+.col-1-left img{
+    width: 500px;
+}
+
+.col-1-left, .col-2-right{
+float: left;
+}
+.col-1-left{
+    width: 60%;
+}
+
+.col-2-right{
+    width: 40%;
+}
+
+.col-2-right{
+position: relative;
+top:50px;
+right: 100px;
+}
+
+.col-2-right p{
+    padding: 15px 0;
 }
