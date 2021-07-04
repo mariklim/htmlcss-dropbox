@@ -50,6 +50,12 @@
      color: #0061ff;
  }
 
+ .bottone-big.contact{
+    margin: 0;
+    background-color: #0061ff;
+    padding: 5px 25px;
+}
+
 /* Typo */
 .header-menu a{
     color: black;
@@ -86,7 +92,7 @@
       font-size: 40px;
   }
 
-  .col-title{
+  .plan-title{
       font-size: 25px;
   }
 
@@ -246,7 +252,7 @@ font-weight: 600;
 }
 .col-plan{
     float: left;
-    height: 850px;
+    height: 840px;
     width: calc(100%/3 - 40px);
     border: 1px solid #d0d0d3;
     /* background-color: indianred; */
@@ -267,7 +273,7 @@ font-weight: 600;
 }
 
 .col-plan.stand{
-    margin: 0 40px;
+    margin: 0 60px;
 }
 
 .short-gray-line{
@@ -277,5 +283,14 @@ font-weight: 600;
 }
 
 .col-content-bottom{
+    margin-top: 40px;
+}
+
+/* Enterprise */
+
+
+
+.col-plan.enterprise{
+    width: 100%;
     margin-top: 40px;
 }
