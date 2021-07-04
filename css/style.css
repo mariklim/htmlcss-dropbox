@@ -246,14 +246,10 @@ font-weight: 600;
 }
 .col-plan{
     float: left;
-    min-height: 700px;
+    height: 850px;
     width: calc(100%/3 - 40px);
     border: 1px solid #d0d0d3;
     /* background-color: indianred; */
-}
-
-.col-plan.stand{
-    margin: 0 20px;
 }
 
 .col-small-title{
@@ -271,7 +267,7 @@ font-weight: 600;
 }
 
 .col-plan.stand{
-    margin: 0 20px;
+    margin: 0 40px;
 }
 
 .short-gray-line{
