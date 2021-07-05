@@ -472,7 +472,9 @@ left: 0px;
 }
 
 /* Sezione 7 box azzurro "inizia prova" */
-
+.prova{
+    margin-bottom: 40px;
+}
 .col-left-prova, .col-right-prova{
     float:left;
     padding: 70px 0;
@@ -490,4 +492,23 @@ left: 0px;
 
 #cta-prova{
     border: none;
+}
+
+/* Sezione 8 FAQ */
+
+.domanda, .down-arrow{
+    display:inline-block;
+}
+.domanda{
+    width: 95%;
+}
+.down-arrow{
+    text-align: left;
+    width: 4%;
+}
+
+.faq, .subtitle-2.underline-faq{
+    border-bottom: 1px solid #dcdcde;
+    padding: 20px 0;
+
 }
