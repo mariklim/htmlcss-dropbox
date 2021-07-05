@@ -65,7 +65,7 @@
 }
 
 /* Typo */
-p{ font-size: 15px;}
+p{ font-size: 14px;}
 .header-menu a{
     color: black;
     font-size: 15px;
@@ -412,9 +412,13 @@ left: 0px;
 
 #short-line-gray{
     width: 15%;
-    margin-top: 30px;
+    margin: 30px 0;
     border-color: #dedee0;
 
+}
+
+.cit::after, .cit::before{
+    content: "\201D";
 }
 
 .color-square{
