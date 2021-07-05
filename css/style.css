@@ -403,6 +403,18 @@ left: 0px;
     min-height: 400px;
     width:calc(100% - 800px);
     background-color: #f5f5f5;
+    padding: 40px;
+}
+
+.text-box img{
+    width: 40%;
+}
+
+#short-line-gray{
+    width: 15%;
+    margin-top: 30px;
+    border-color: #dedee0;
+
 }
 
 .color-square{
@@ -410,9 +422,19 @@ left: 0px;
     height: 200px;
     float: left;
     position: relative;
-    
 }
 
+
+.color-boxes img{
+    width: 60%;
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+  
+/* Colori dei box */
 .lightgreen{
     background-color: #a2d39b;
 }
@@ -445,14 +467,6 @@ left: 0px;
     background-color: #ffd830;
 }
 
-.color-boxes img{
-    width: 60%;
-    position: absolute;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
- }
-  
+
     
 
