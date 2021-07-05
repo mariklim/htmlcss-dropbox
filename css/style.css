@@ -55,14 +55,15 @@
     padding: 5px 25px;
 }
 
-.bottone-big.btn-partner{
+.bottone-big.cta{
     background-color:white;
     border: 1px solid black;
 }
-.bottone-big.btn-partner a{
+.bottone-big.cta a{
     color: black;
     font-weight: 400;
 }
+
 
 /* Typo */
 p
@@ -100,7 +101,7 @@ p
   }
 
   .titolo-sezione{
-      font-size: 40px;
+      font-size: 35px;
   }
 
   .plan-title, .subtitle-2{
@@ -175,18 +176,11 @@ main{
     margin-top: 60px;
 }
 
-.section-big{
-    width: 100%;
+
+.container-big.sky{
+    padding: 0 40px;
 }
 
-.section-big.azzurro{
-    background-color: #b4d0e7;
-    /* height: 740px; */
-}
-.container-big{
-    width: 1250px;
-    margin: auto;
-}
 .container-big h1{
     font-size: 80px;
     padding-top: 50px;
@@ -444,6 +438,11 @@ left: 0px;
  }
   
 /* Colori dei box */
+
+/* questo colore è anche del container-big */
+.sky{
+    background-color: #b4d0e7;
+}
 .lightgreen{
     background-color: #a2d39b;
 }
@@ -464,10 +463,6 @@ left: 0px;
     background-color: #d5001f;
 }
 
-.sky{
-    background-color: #b4d0e7;
-}
-
 .darkblue{
     background-color: #0d2481;
 }
@@ -476,6 +471,23 @@ left: 0px;
     background-color: #ffd830;
 }
 
+/* Sezione 7 box azzurro "inizia prova" */
 
-    
+.col-left-prova, .col-right-prova{
+    float:left;
+    padding: 70px 0;
+}
+.col-right-prova{
+    text-align: left;
+    width: 40%;
+}
 
+.col-left-prova{
+    padding-left: 90px;
+    width: 60%;
+    color:#61082b;
+}
+
+#cta-prova{
+    border: none;
+}
