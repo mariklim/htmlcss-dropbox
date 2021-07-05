@@ -27,7 +27,7 @@
  }
 
  .container-small{
-    width: 70%;
+    width: 65%;
     margin: auto;
 }
 
@@ -264,7 +264,7 @@ font-weight: 600;
 }
 .col-plan{
     float: left;
-    height: 840px;
+    min-height: 950px;
     width: calc(100%/3 - 40px);
     border: 1px solid #d0d0d3;
     /* background-color: indianred; */
@@ -299,11 +299,11 @@ font-weight: 600;
 }
 
 /* Enterprise */
-.col-plan.enterprise{
+.enterprise{
     width: 100%;
     margin: 40px 0px;
-    height: auto;
     padding-bottom: 30px;
+    min-height: 200px;
 }
 
 .col-content-top.clearfix .plan-title,
@@ -348,7 +348,7 @@ float: left;
 .col-2-right{
 position: relative;
 top:50px;
-right: 100px;
+left: 0px;
 }
 
 .col-2-right p{
@@ -409,6 +409,8 @@ right: 100px;
     width: 200px;
     height: 200px;
     float: left;
+    position: relative;
+    
 }
 
 .lightgreen{
@@ -442,4 +444,15 @@ right: 100px;
 .yellow{
     background-color: #ffd830;
 }
+
+.color-boxes img{
+    width: 60%;
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+  
+    
 
