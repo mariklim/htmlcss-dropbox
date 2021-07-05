@@ -538,4 +538,11 @@ left: 0px;
 
 .lingua{
     color:gray;
+    border-top: 1px solid white;
+    padding-top: 30px;
+    padding-right: 40px;
+}
+
+.footer-bottom{
+    display: inline-block;
 }
