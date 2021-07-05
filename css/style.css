@@ -87,7 +87,7 @@ p{ font-size: 15px;}
     margin-top: 10px;
   }
 
- .small-text .acquista-ora{
+ .small-text .link-cta{
     text-decoration-line: underline;
     color: #67a0ff;
     font-weight: 600;
@@ -377,3 +377,11 @@ right: 100px;
     margin: 20px 0;
 }
 
+.operation{
+    margin-bottom: 100px;
+}
+
+/* Teams */
+.teams-title{
+    width: 60%;
+}
