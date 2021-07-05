@@ -65,7 +65,9 @@
 }
 
 /* Typo */
-p{ font-size: 14px;}
+p
+{font-size: 14px;}
+
 .header-menu a{
     color: black;
     font-size: 15px;
@@ -420,7 +422,10 @@ left: 0px;
 .cit::after, .cit::before{
     content: "\201D";
 }
-
+.text-box p:last-child{
+    margin-top: 40px;
+    
+}
 .color-square{
     width: 200px;
     height: 200px;
