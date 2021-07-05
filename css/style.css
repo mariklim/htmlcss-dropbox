@@ -519,5 +519,23 @@ left: 0px;
 /* footer */
 .balck-box{
     background-color: black;
-    height: 300px;
+}
+.footer-top,.footer-bottom{
+    padding: 60px;
+}
+.col-footer{
+    float: left;
+    width:calc(100% / 5);
+}
+
+.col-title-footer, .col-footer ul li a{
+    color: white;
+}
+
+.col-footer ul{
+    list-style: none;
+}
+
+.lingua{
+    color:gray;
 }
