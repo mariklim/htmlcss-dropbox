@@ -385,3 +385,23 @@ right: 100px;
 .teams-title{
     width: 60%;
 }
+
+.teams{
+    margin-bottom:40px;
+}
+
+/* Color-box-teams */
+
+.color-boxes, .text-box{
+    float: left;
+    height: 30px;
+}
+
+.color-boxes{
+    width: 400px;
+    background-color: darkmagenta;
+}
+.text-box{
+    width:calc(100% - 800px);
+    background-color: darkorange;
+}
