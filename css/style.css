@@ -394,14 +394,52 @@ right: 100px;
 
 .color-boxes, .text-box{
     float: left;
-    height: 30px;
 }
 
 .color-boxes{
     width: 400px;
-    background-color: darkmagenta;
 }
 .text-box{
+    min-height: 400px;
     width:calc(100% - 800px);
-    background-color: darkorange;
+    background-color: #f5f5f5;
 }
+
+.color-square{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.lightgreen{
+    background-color: #a2d39b;
+}
+
+.darkpink{
+    background-color: #61082b;
+}
+
+.lightblue{
+    background-color: #0093ce;
+}
+
+.lightred{
+    background-color: #ff1c1c;
+}
+
+.darkred{
+    background-color: #d5001f;
+}
+
+.sky{
+    background-color: #b4d0e7;
+}
+
+.darkblue{
+    background-color: #0d2481;
+}
+
+.yellow{
+    background-color: #ffd830;
+}
+
