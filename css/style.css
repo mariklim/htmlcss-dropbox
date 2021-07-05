@@ -182,7 +182,7 @@ main{
 }
 
 .container-big h1{
-    font-size: 80px;
+    font-size: 60px;
     padding-top: 50px;
 }
 
@@ -496,6 +496,10 @@ left: 0px;
 
 /* Sezione 8 FAQ */
 
+.container-faq{
+    margin-bottom: 60px;
+}
+
 .domanda, .down-arrow{
     display:inline-block;
 }
@@ -510,5 +514,10 @@ left: 0px;
 .faq, .subtitle-2.underline-faq{
     border-bottom: 1px solid #dcdcde;
     padding: 20px 0;
+}
 
+/* footer */
+.balck-box{
+    background-color: black;
+    height: 300px;
 }
