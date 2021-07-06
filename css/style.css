@@ -135,21 +135,21 @@ p
 	z-index: 10;
  }
 
- .header-right, .header-left{
+ .col-header-right, .col-header-left{
      float: left;
      width: 50%;
-     padding: 20px 20px 30px 20px;
+     padding: 10px 20px;
      height: 60px;
      background-color: white;
  }  
 
- .header-left img{
+ .col-header-left img{
      vertical-align: middle;
      margin-right: 15px;
  }
 
 
- .header-right{
+ .col-header-right{
      text-align: right;
  }
 
@@ -178,7 +178,8 @@ main{
 
 
 .container-big.sky{
-    padding: 0 40px;
+    width: 100%;
+    padding: 0 150px;
 }
 
 .container-big h1{
