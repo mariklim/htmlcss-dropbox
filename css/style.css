@@ -175,7 +175,7 @@ p
 }
 
  /* Allineamento di due nav */
-.header-menu.left, .header-menu.right{
+.header-menu{
     vertical-align: middle;
     /* border: 1px solid black; */
 }
@@ -325,7 +325,8 @@ main{
 }
 
 .col-1-left img{
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
 }
 
 .col-1-left, .col-2-right{
